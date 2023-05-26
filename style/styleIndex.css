@@ -1,0 +1,10 @@
+
+img{
+  max-width: 1000px;
+  min-width: 500px;
+}
+
+.img{
+  display: flex;
+  justify-content: center;
+}

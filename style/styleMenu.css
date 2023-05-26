@@ -1,0 +1,81 @@
+* {
+margin: 0;
+padding: 0;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+display: flex;
+margin: 10px;
+}
+
+a{
+  color: black;
+  border: 1px solid black;
+  text-align: center;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.headerTitle{
+display: inline;
+width: 80%;
+padding-left: 100px;
+
+
+  
+}
+
+.createBtn {
+display: inline;
+width: 20%;
+border: none;
+border-radius: 25px;
+background-color: rgba(29, 79, 243, 0.575);
+font-size: large;
+padding-top: 15px;
+}
+
+.container {
+  
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  padding: 10px;
+  gap: 20px;
+  border: 2px solid red;
+}
+
+.recepeContainer {
+  min-height: 300px;
+  max-height: 500px;
+  width: 100%;
+  margin: 10%;
+  box-shadow: 0px 0px 5px 3px rgba(49, 255, 7, 0.66);
+-webkit-box-shadow: 0px 0px 5px 3px rgba(49, 255, 7, 0.66);
+-moz-box-shadow: 0px 0px 5px 3px rgba(49, 255, 7, 0.66);
+}
+.recepeContainer > h2 {
+  text-align: center;
+  
+
+}
+
+.recepeContainer > p {
+  
+  height: 77%;
+
+}
+
+.recepeContainer > div {
+  display: flex;
+  justify-content: end;
+  
+}
+.cookBtn {
+  background-color: black;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+}
